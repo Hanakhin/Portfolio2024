@@ -1,7 +1,6 @@
 import {Section} from "@/app/_Components/Section";
 import {Badge} from "@/components/ui/badge";
 import {ReactIcon} from "@/app/_Components/icons/ReactIcon";
-import {MongodbIcon} from "@/app/_Components/icons/MongodbIcon";
 import {Code} from "@/app/_Components/Code";
 import {TailwindIcon} from "@/app/_Components/icons/TailwindIcon";
 import {FigmaIcon} from "@/app/_Components/icons/FigmaIcon";

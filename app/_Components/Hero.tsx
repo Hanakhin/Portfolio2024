@@ -8,7 +8,7 @@ import {WSICon} from "@/app/_Components/icons/WSIcon";
 import {Code} from "@/app/_Components/Code";
 import {Download} from "lucide-react";
 
-const Cv = '/ressources/CvHanakhin.pdf'
+const Cv = '/ressources/Nouni-MassotteHanakhin-cv.pdf'
 
 export const Hero = () => {
     return (

@@ -6,7 +6,9 @@ import {NextIcon} from "@/app/_Components/icons/NextIcon";
 import Link from "next/link";
 import {WSICon} from "@/app/_Components/icons/WSIcon";
 import {Code} from "@/app/_Components/Code";
+import {Download, ExternalLink} from "lucide-react";
 
+const Cv = '/ressources/CvHanakhin.pdf'
 
 export const Hero = () => {
     return (
@@ -26,7 +28,7 @@ export const Hero = () => {
                 </p>
 
             </div>
-            <div className={"flex-2 max-md:m-auto "}>
+            <div className={"flex-2 max-md:m-auto flex flex-col justify-center items-center gap-2 "}>
                 <Image
                     src={"/image/Me.png"}
                     alt={"Hero image"}
@@ -34,6 +36,7 @@ export const Hero = () => {
                     height={300}
                     className={"rounded-full h-auto max-w-sm max-md:w-56"}
                 />
+                <Link href={Cv} target={'_blank'} rel="noopener noreferrer"><Code className={"p-1 inline-flex items-center gap-2 cursor-pointer"}> Get my cv <Download size={18}/> </Code></Link>
             </div>
         </Section>
     );

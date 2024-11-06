@@ -6,7 +6,7 @@ export const WORKS:WorkProps[]=[
         title:"Web&Style",
         role:"Lead-Dev",
         date:"2024 - Present",
-        url:"https://webstyle.vercel.app/",
+        url:"https://webstyle.tech",
         freelance: false
     },
     {

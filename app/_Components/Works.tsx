@@ -19,7 +19,7 @@ export const WORKS:WorkProps[]=[
     },
     {
         image:"https://www.mountainodes.com/img/logo.png",
-        title:"Montain nodes",
+        title:"Mountain nodes",
         role:"Software developer",
         date:"2022",
         url:"https://www.mountainodes.com/",

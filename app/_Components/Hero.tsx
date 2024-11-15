@@ -22,7 +22,7 @@ export const Hero = () => {
                     I am Currently working for
                     <Link
                         className={"p-0.5 inline-flex"}
-                        href={"https://webstyle.vercel.app/"}
+                        href={"https://webstyle.tech/"}
                         target={'_blank'}><Code className={"cursor-pointer"}> <WSICon size={16} className={"inline"}/>Web&Style</Code>
                     </Link>
                 </p>

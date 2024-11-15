@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import {Anek_Telugu} from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,6 +33,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${Anek.variable} antialiased font-sans bg-background text-foreground h-full`}
       >
         {children}
+        <Analytics/>
+      <SpeedInsights/>
       </body>
     </html>
   );

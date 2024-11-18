@@ -4,7 +4,6 @@ import {ReactIcon} from "@/app/_Components/icons/ReactIcon";
 import {FigmaIcon} from "@/app/_Components/icons/FigmaIcon";
 import {NextIcon} from "@/app/_Components/icons/NextIcon";
 import Link from "next/link";
-import {WSICon} from "@/app/_Components/icons/WSIcon";
 import {Code} from "@/app/_Components/Code";
 import {Download} from "lucide-react";
 

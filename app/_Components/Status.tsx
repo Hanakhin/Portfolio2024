@@ -1,6 +1,6 @@
 import {Section} from "@/app/_Components/Section";
 import {Card} from "@/components/ui/card";
-import {Gamepad2, Smile, Sun} from "lucide-react";
+import {Gamepad2, Fish, Sun} from "lucide-react";
 import Link from "next/link";
 import {Badge} from "@/components/ui/badge";
 import {SideProject, SideProjectProps} from "@/app/_Components/SideProject";
@@ -12,7 +12,7 @@ export const Status = () =>{
         <Section className={"flex max-md:flex-col items-start gap-4"}>
             <div className={"flex-[3] w-full flex-col "}>
                 <Card className="flex flex-col gap-2 p-4 w-full">
-                    <p className={"text-muted-foreground text-lg"}>Side,   fun projects</p>
+                    <p className={"text-muted-foreground text-lg"}>Side,fun projects</p>
                     <div className={"flex flex-col gap-4"}>
                         {SIDE_PROJECTS.map((project,index)=>(
                             <SideProject
@@ -69,10 +69,10 @@ const SIDE_PROJECTS: SideProjectProps[] = [
         url: "https://github.com/Hanakhin/ProjectFinal"
     },
     {
-        Logo: Smile,
-        title: "HangedGame",
-        description: "This is a simple but fonctionnal HangedGame fully made in java.",
-        url:"https://github.com/Hanakhin/PENDU-JAVA"
+        Logo: Fish,
+        title: "Fishing3000",
+        description: "This is a fullStack app made in nextjs - Springboot java , its a fishing shop/events planner",
+        url:"https://github.com/Hanakhin/next-java"
     },
     {
         Logo: Sun,

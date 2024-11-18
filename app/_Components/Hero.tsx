@@ -19,12 +19,7 @@ export const Hero = () => {
                 <p className={"leading-6"}>I love to code using <Code><ReactIcon size={16} className={"inline"}/> React.js</Code>,
                     particularly with <Code><NextIcon size={16} className={"inline"}/>Next.js</Code>
                     I also have knowledge in <Code> <FigmaIcon size={16} className={"inline"}/>Figma</Code> <br/>
-                    I am Currently working for
-                    <Link
-                        className={"p-0.5 inline-flex"}
-                        href={"https://webstyle.tech/"}
-                        target={'_blank'}><Code className={"cursor-pointer"}> <WSICon size={16} className={"inline"}/>Web&Style</Code>
-                    </Link>
+                    I am Currently open for work !
                 </p>
 
             </div>

@@ -5,7 +5,7 @@ export const WORKS:WorkProps[]=[
         image:"/image/wslogo.png",
         title:"Web&Style",
         role:"Lead-Dev",
-        date:"2024 - Present",
+        date:"2024 - 2024",
         url:"https://webstyle.tech",
         freelance: false
     },

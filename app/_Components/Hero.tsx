@@ -7,7 +7,7 @@ import Link from "next/link";
 import {Code} from "@/app/_Components/Code";
 import {Download} from "lucide-react";
 
-const Cv = '/ressources/Nouni-MassotteHanakhin-cv.pdf'
+const Cv = '/ressources/CV-2025-updated-Hanakhin.pdf'
 
 export const Hero = () => {
     return (
@@ -24,7 +24,7 @@ export const Hero = () => {
             </div>
             <div className={"flex-2 max-md:m-auto flex flex-col justify-center items-center gap-2 "}>
                 <Image
-                    src={"/image/Me.png"}
+                    src={"/image/Me.jpeg"}
                     alt={"Hero image"}
                     width={300}
                     height={300}

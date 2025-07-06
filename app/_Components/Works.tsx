@@ -5,7 +5,7 @@ export const WORKS:WorkProps[]=[
         image:"/image/wslogo.png",
         title:"Web&Style",
         role:"Lead-Dev",
-        date:"2024 - 2024",
+        date:"2024",
         url:"https://webstyle.tech",
         freelance: false
     },
@@ -18,12 +18,12 @@ export const WORKS:WorkProps[]=[
         freelance: false
     },
     {
-        image:"https://www.mountainodes.com/img/logo.png",
-        title:"Mountain nodes",
+        image:"https://www.agence418.fr/agence-418-developpemen-web-perpignan-white.ico\n",
+        title:"Agence 418",
         role:"Software developer",
-        date:"2022",
-        url:"https://www.mountainodes.com/",
-        freelance: true
+        date:"2024-2025",
+        url:"https://www.agence418.fr/",
+        freelance: false
     }
 
 

@@ -20,6 +20,11 @@ const Anek = Anek_Telugu({subsets: ["latin"],variable: "--font-anek"});
 export const metadata: Metadata = {
   title: "Hanakhin Nouni-massotte · Software Engineer",
   description: "Student Web Developer/design specialized in React.js,Tailwindcss and Next.js",
+    icons:{
+      icon:[
+          {url: '/custom-icon.png'}
+      ]
+    }
 };
 
 export default function RootLayout({

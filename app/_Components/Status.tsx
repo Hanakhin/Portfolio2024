@@ -42,14 +42,14 @@ export const Status = () =>{
                 <Card className={"p-4 gap-2 flex flex-col "}>
                     <p className={"text-muted-foreground text-lg"}>Contact me</p>
                     <ContactCard
-                        image={"/image/Me.png"}
+                        image={"/image/Me.jpeg"}
                         mediumImage={"/image/icons/linkedin.png"}
                         name={"Linkedin/hanakhin"}
                         description={"my linkedin"}
                         url={"https://www.linkedin.com/in/hanakhin"}
                     />
                     <ContactCard
-                        image={"/image/Me.png"}
+                        image={"/image/Me.jpeg"}
                         name={"Gmail/hanakhin"}
                         mediumImage={"/image/icons/gmail.png"}
                         description={"my Gmail"}

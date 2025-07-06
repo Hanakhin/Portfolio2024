@@ -27,7 +27,7 @@ export const Header = ()=>{
     return(
         <header className={cn(`sticky top-0 py-4 ${scrollPosition > 50 ? "bg-primary-foreground/50 transition-all" : ""}`)}>
             <Section className="flex items-center">
-                <Image src={"/image/icon.png"} alt={"my logo"} width={25} height={25} />
+                <Image src={"/image/iconv2.svg"} alt={"my logo"} width={100} height={100} />
                 <div className={"flex flex-1 justify-end"}>
                     <ul className={"flex items-center gap-4"}>
                         <Link href={"https://github.com/Hanakhin"} target={"_blank"} className={cn(buttonVariants({variant: "outline"}) ,"size-8 p-2")} >

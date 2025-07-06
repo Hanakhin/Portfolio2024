@@ -20,14 +20,14 @@ export const Contact = ()=>{
                 touch</h2>
             <div className="flex max-md:flex-col gap-4 w-full">
                 <ContactCard
-                    image={"/image/Me.png"}
+                    image={"/image/Me.jpeg"}
                     mediumImage={"/image/icons/linkedin.png"}
                     name={"Linkedin/hanakhin"}
                     description={"Contact me"}
                     url={"https://www.linkedin.com/in/hanakhin-nouni-massotte-b6360b30b/"}
                 />
                 <ContactCard
-                    image={"/image/Me.png"}
+                    image={"/image/Me.jpeg"}
                     name={"gmail/hanakhin"}
                     mediumImage={"/image/icons/gmail.png"}
                     description={"Any questions ?"}
